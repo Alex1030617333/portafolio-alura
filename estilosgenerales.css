@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --titulo:rgb(6, 243, 6);
+    --fondoTitulo:rgb(16, 16, 16);
+    --fondoMenu:rgb(16, 16, 16);
+    --textoMenu:rgb(6, 242, 246);
+    --rallaMenu:rgb(247, 247, 6);
+    --textoperfil:rebeccapurple;
+    --textoparafo:white;
+
+    
+
+}
+body{
+    background-image: url("./hero.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

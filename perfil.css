@@ -1,0 +1,93 @@
+.constainer__datos{
+    display: flex;
+    justify-content: space-between;  
+ 
+}
+.container__form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* display: none; */
+}
+.fondo__Perfil{
+    padding: 40px;
+}
+label{
+color: var(--rallaMenu);
+ font-size: 15px;
+ 
+}
+input,select{
+    width: 90%;
+    height: 4vh;
+}
+input:hover{
+    
+    background: transparent;
+    border: none;
+    border-top: 2px blue;
+}
+
+.btnbotones{
+    display: flex;
+    
+}
+.container__form button{
+    width: 60%;
+    height: 4vh;
+    border-radius: 10px;
+}
+ 
+.container__quiensoy p{
+    margin-left:20px ;
+    font-size: 25px;
+    color: rgb(221, 236, 7);
+}
+
+.container__quiensoy img{
+width: 100px;
+border-radius: 7px;
+margin-left: 40px;
+
+}
+.marca__form{
+    max-width: 70%;
+   animation: fondoform 6s 2;
+   box-shadow: 2px 1px 2px 3px rgb(6, 244, 236);
+}
+@keyframes fondoform{
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 7; 
+    }
+}
+form{
+    margin: 20px;
+}
+.marca__form h1{
+    color: var(--titulo);
+    opacity: .6;
+    text-align: center;
+    
+}
+
+.container__form label{
+    margin-right: 120px;
+}
+span{
+    color: var(--textoperfil);
+    font-size: 40px;
+}
+textarea{
+    margin-left: 1%;
+}
+
+.marca__form1{
+    display: none;
+}
+.marca__form{
+    display: inline;
+} 

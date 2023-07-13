@@ -1,0 +1,49 @@
+.contenedor__herramientas,.contenedor__hobbis{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    justify-content: space-around;
+}
+.herramientas{
+    display: flex;
+    color: var(--textoparafo);
+    text-align: center;
+   
+   
+}
+
+.herramientas  img{
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+ 
+}
+
+.cvs {
+  
+    margin:60px -300px ;
+    position: absolute;
+    width: 10%;
+    height: 6vh;
+    border-radius: 20px;
+    animation: btncolor 8s infinite;
+    color: var(--textoparafo);
+}
+@keyframes btncolor{
+    10%{background-image: radial-gradient( black,blue,black);}
+    30%{background-image: radial-gradient( black,rgb(230, 43, 5),black);}
+    60%{background-image: linear-gradient( black,rgb(127, 243, 10),black);}
+   100%{background-image: radial-gradient( rgb(239, 223, 10),rgb(9, 174, 245),black);}
+}
+
+
+.contenedor__herramientas h1{
+    text-align: center;
+    color: var(--titulo);
+    padding: 10px;
+} 
+.contenedor__proyectos__titulo h1{
+    text-align: center;
+    color: var(--titulo);
+    padding: 10px;
+} 

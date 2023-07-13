@@ -1,0 +1,21 @@
+
+
+.contenedor__hobbis,.contenedor__educacion{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor__hobbis figcaption,.contenedor__educacion figcaption{
+    color: var(--textoparafo);
+}
+.conenedor__titulo h1,.conedor__titulo_edu h1{
+    text-align: center;
+    color: var(--titulo);
+    padding: 20px;
+}
+.contenedor__hobbis  img, .contenedor__educacion img{
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 2px rgb(62, 8, 8);
+    
+}

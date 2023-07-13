@@ -1,0 +1,67 @@
+
+
+.proyectos{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+   
+}
+.proyectos img{
+    width: 60%;
+    
+}
+.proyectos a,FIgcaption{
+    margin-left: 80px;
+    
+}
+.contenedor__proyectos img:hover{
+transform: scale(1.3);
+transition: all 2s;
+}
+.proyectos FIgcaption{
+    text-shadow:2px 6px 7px rgb(240, 234, 240);
+    background-image: linear-gradient(to left,rgb(0, 195, 255),rgb(250, 35, 6),green);
+    -webkit-text-fill-color:transparent ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   
+    
+}
+.btnbotones{
+margin-left: 60px;
+
+}
+
+.btnbotones button:hover{
+    background: transparent;
+    color: var(--textoparafo);
+    width: 60%;
+    margin-right: 15%;
+}
+b{
+color: var(--textoparafo);
+font-size: 12px;
+text-align: justify;
+max-width: 10%;
+}
+.leer{
+    width: 20%;
+    height: 6vh;
+    border-radius: 20px;
+    background: rgb(9, 174, 245);
+}
+.leer:Hover{
+    box-shadow:1px 2px 20px rgb(9, 174, 245), 2px 1px 28px rgb(9, 174, 245), 3px 3px 29px rgb(9, 174, 245) ;
+    border: none;
+    }
+.mas ,.letra{
+    color: var(--textoparafo);
+    width:90%;
+    font-size: 16px;
+}
+.mas{
+    
+    display: none;
+}

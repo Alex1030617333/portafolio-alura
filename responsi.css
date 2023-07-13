@@ -1,0 +1,190 @@
+
+
+
+@media (max-width:375px){
+    header{
+        font-size: 20px;
+        text-align: center;
+    }
+    .menu__portafolio{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comunidad{
+        font-size: 30px;
+        
+    }
+    .leer{
+width: 40%;
+    }
+    .fa-brands{
+        font-size: 26px;
+    }
+    .menu__portafolio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .proyectos ,.herramientas,.contenedor__hobbis{
+      margin-left: 100px;
+      
+    }
+    .contenedor__hobbis img{
+        width: 90px;
+    }
+    nav img {
+        display: none;
+    }
+    .contenedor__proyectos__titulo h1,.contenedor__herramientas h1,.conenedor__titulo h1,.conedor__titulo_edu h1{ 
+        font-size: 20px;
+    }
+.herramientas,.contenedor__hobbis,footer{
+display: flex;
+flex-direction: column;
+
+}
+   .proyectos FIgcaption,.herramientas FIgcaption,.contenedor__hobbis FIgcaption,.contenedor__educacion FIgcaption{
+    margin-left: 10px;
+   }
+   .contenedor__educacion{
+    margin-left: 40px;
+   }
+    .constainer__datos{
+        flex-wrap: wrap;
+    }
+    .container__form{
+        max-width: 100%;
+    }
+    .container__redesociales  {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .comunidad{
+        font-size: 60px;
+        
+    }
+    .constainer__datos{
+        display: flex;
+        flex-direction: column;
+            }
+    textarea{
+        width: 90%;
+    }
+
+    .menu__portafolio img{
+        display: none;
+    }
+    .cvs{
+        display: none;
+    }
+    h3{
+    font-size: 20px;
+   margin-left: 60px;
+    }
+.email{
+    font-size: 20px;
+}
+@media (max-width: 425px){
+    header{
+        font-size: 16px;
+        text-align: center;
+    }
+    .comunidad {
+        font-size: 35px;
+    }
+    .proyectos,.menu__portafolio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav img {
+        display: none;
+    }
+    .container__form{
+        max-width: 100%;
+        padding: 10px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    .container__redesociales  {
+        display: flex;
+      justify-content: space-between;
+    }
+    .comunidad{
+        font-size: 60px;
+        
+    }
+    address{
+        font-size: 17px;
+    }
+    .constainer__datos{
+display: flex;
+flex-direction: column;
+    }
+    .menu__portafolio img{
+        display: none;
+    }
+    .cvs{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        font-size: 20px;
+        text-align: center;
+    }
+    a{
+        font-size: 26px;
+    }
+    input,select{
+        
+        height: 3vh;
+    }
+.comunidad{
+        font-size: 30px;
+        
+    }
+    .proyectos,.menu__portafolio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav img {
+        display: none;
+    }
+    h1{
+        font-size: 10px;
+    }
+    .constainer__datos{
+        flex-wrap: wrap;
+    }
+    .container__form{
+        max-width: 100%;
+    }
+    .container__redesociales  {
+        display: flex;
+      justify-content: space-between;
+    }
+    .comunidad{
+        font-size: 60px;
+        
+    }
+    .constainer__datos{
+        display: flex;
+        flex-direction: column;
+            }
+    textarea{
+        width: 90%;
+    }
+    address{
+        font-size: 15px;
+    } 
+    .cvs{
+        margin-left: -190px;
+        width:30%;
+        height: 8vh;
+    } 
+    
+}
+
